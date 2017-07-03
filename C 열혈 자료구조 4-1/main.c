@@ -14,6 +14,9 @@ int main(void) {
 	Node * newNode = NULL;
 	int readData;
 
+	head = (Node*)malloc(sizeof(Node));
+	tail = head;
+
 	while (1) {
 		printf("자연수 입력: ");
 		scanf("%d", &readData);
@@ -24,14 +27,8 @@ int main(void) {
 		newNode->data = readData;
 		newNode->next = NULL;
 
-		if (head == NULL) {
-			head = newNode;
-			tail = newNode;
-		}
-		else {
-			newNode->next = head;
-			head = newNode;
-		}
+		tail->next = newNode;
+		tail = newNode;
 	}
 	printf("\n");
 
