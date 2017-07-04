@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\ArrayList.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\ListMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\NameCard.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\Point.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClInclude Include="ArrayList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\ArrayList.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\NameCard.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\Point.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="ArrayList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ListMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NameCard.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

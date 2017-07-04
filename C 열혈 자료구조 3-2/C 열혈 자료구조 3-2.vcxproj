@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\ArrayList.c" />
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\ListMain.c" />
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\NameCard.c" />
-    <ClCompile Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\Point.c" />
+    <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="NameCard.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\ArrayList.h" />
-    <ClInclude Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\NameCard.h" />
-    <ClInclude Include="..\..\..\..\Documents\Visual Studio 2017\Projects\연습용\Point.h" />
+    <ClCompile Include="ArrayList.c" />
+    <ClCompile Include="ListMain.c" />
+    <ClCompile Include="NameCard.c" />
+    <ClCompile Include="Point.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
