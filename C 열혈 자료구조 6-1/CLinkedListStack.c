@@ -3,12 +3,13 @@
 #include "CLinkedListStack.h"
 
 void StackInit(Stack * pstack) {
-	pstack->plist = (List*)malloc(sizeof(List));
-	ListInit(pstack->plist);
+	List * list = (List*)malloc(sizeof(List));
+	ListInit(&list);
+	pstack->plist = &list;
 }
 
 int SIsEmpty(Stack * pstack) {
-	if (LCount(pstack->plist) == 0)
+	if (pstack->plist->tail == NULL)
 		return TRUE;
 	else
 		return FALSE;
@@ -19,14 +20,12 @@ void SPush(Stack * pstack, Data data) {
 }
 
 Data SPop(Stack * pstack) {
-	Data data;
-	LFirst(pstack->plist, &data);
+	Data delData;
+	LFirst(pstack->plist, &delData);
 	LRemove(pstack->plist);
-	return data;
+	return delData;
 }
 
 Data SPeek(Stack * pstack) {
-	Data data;
-	LFirst(pstack->plist, &data);
-	return data;
+
 }
