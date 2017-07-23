@@ -5,7 +5,7 @@
 
 int MyHashFunc(int k)
 {
-	return k % 100;
+	return k % 100;	
 }
 
 int main(void)
